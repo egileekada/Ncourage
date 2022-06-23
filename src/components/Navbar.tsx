@@ -42,7 +42,7 @@ export default function Navbar(props: any) {
                     <div className='w-full top-32 right-0 z-50 absolute flex-col flex px-6 justify-center lg:hidden ' >
                         <div className=' w-full flex-col flex bg-[#7D614C] justify-center py-4 rounded ' >
                             <div className=' w-auto mx-auto' >
-                                <a href='' className={props.tab === '1' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
+                                <a href='/' className={props.tab === '1' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
                                     Home
                                 </a>
                                 <a href='/shop' className={props.tab === '2' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >

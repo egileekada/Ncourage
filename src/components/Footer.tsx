@@ -14,6 +14,7 @@ export default function Footer() {
                 </div>
             </div>
             <p  className=' font-CircularStd-Medium mt-14 text-sm text-center'>Copyright © 2021 Ncourage. All Rights Reserved.</p>
+                <a href='https://www.icowebagency.com'><p className=' font-OpenSans-SemiBold text-white mt-4 text-center text-sm ' >Developed by icoweb</p></a>
         </div>
     )
 } 

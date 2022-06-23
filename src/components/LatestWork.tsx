@@ -9,8 +9,8 @@ import seven from '../assets/images/7.png'
 
 export default function LatestWork() {
     return (
-        <div style={{background: 'radial-gradient(50% 50% at 50% 50%, #574130 0%, #1F1610 100%)'}} className=' w-full py-14' >
-            <div className=' w-full flex flex-col justify-center items-center' >
+        <div style={{background: 'radial-gradient(50% 50% at 50% 50%, #574130 0%, #1F1610 100%)'}} className=' w-full h-full py-14' >
+            <div className=' w-full flex flex-col justify-center items-center mt-8' >
                 <p className=' text-4xl font-CircularStd-SemiBold text-white ' >Latest <span className=' text-[#EDB388]' >works</span></p>
                 <div className=' w-auto lg:flex items-center hidden text-sm my-8 text-[#FFFFFF99]' >
                     <button className=' font-PublicSans-Medium text-white mx-5 py-1 border-b border-white ' >ALL</button>
@@ -22,7 +22,7 @@ export default function LatestWork() {
                     <button className=' font-PublicSans-Medium mx-5' >STUDIO</button>
                     <button className=' font-PublicSans-Medium mx-5' >VIDEO</button>
                 </div>
-                <div className='w-screen flex justify-center my-6 items-center' >
+                <div className='w-screen hidden lg:flex justify-center my-6 items-center' >
                     <img src={one} alt='one' />
                     <div className='mx-4  ' >
                         <img src={two} alt='two' />
@@ -35,6 +35,15 @@ export default function LatestWork() {
                     </div>
                     <img src={seven} alt='seven' />
                 </div>
+
+            <div className=' w-auto overflow-x-auto lg:hidden mb-12 dashboardslide flex mt-6  items-center' >
+                    <img src={one} className='h-40 object-cover ' alt='one' />
+                        <img src={two} className='h-40 object-cover ' alt='two' />
+                        <img src={three} className='h-40 object-cover ' alt='three' />
+                    <img src={middle} className='h-40 object-cover ' alt='middle' /> 
+                        <img src={five} className='h-40 object-cover ' alt='five' />
+                        <img src={six} className='h-40 object-cover ' alt='six' />
+            </div>
             </div>
         </div>
     )

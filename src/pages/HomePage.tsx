@@ -14,7 +14,7 @@ export default function HomePage() {
                 <Navbar tab='1' />
             </div>
             <SalesPage />
-            <div className='w-full' >
+            <div className='w-full h-full ' >
                 <LatestWork />
             </div>
             <div className='w-full' >
