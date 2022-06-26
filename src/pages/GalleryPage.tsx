@@ -12,7 +12,7 @@ export default function GalleryPage() {
                 <Navbar tab='3' />
                 <div className=' w-full flex flex-col pt-8 pb-20 justify-center items-center text-white ' > 
                     <p className=' font-CircularStd-Bold text-5xl' >Gallery</p>
-                    <p className=' font-CircularStd-Medium w-96 mt-2 text-center ' >Lorem ipsum dolor sit amet, consecteturLorem ipsum dolor sit amet, consectetur</p>
+                    <p className=' font-CircularStd-Medium w-96 mt-2 text-center ' >our latest work and the amazing personalities</p>
                 </div> 
             </div>
             <div className='w-full' >

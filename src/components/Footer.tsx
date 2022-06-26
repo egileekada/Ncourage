@@ -9,8 +9,8 @@ export default function Footer() {
                 <p className=' font-CircularStd-Medium lg:w-96' >The world without photography will be meaningless to us if there is no light and color, which opens up our minds and expresses passion.</p>
                 <div className=' lg:mt-0 mt-14' >
                     <p className=' font-CircularStd-Bold text-2xl  ' >Contacts</p>
-                    <p className=' font-CircularStd-Medium mt-2'>Phone: +1 (800) 456 37 11</p>
-                    <p className=' font-CircularStd-Medium mt-1'>Email: support@promo-theme.com</p>
+                    <p className=' font-CircularStd-Medium mt-2'>Phone: +234 706 817 2124</p>
+                    <p className=' font-CircularStd-Medium mt-1'>Email: courage@couragestudios.com</p>
                 </div>
             </div>
             <p  className=' font-CircularStd-Medium mt-14 text-sm text-center'>Copyright © 2021 Ncourage. All Rights Reserved.</p>

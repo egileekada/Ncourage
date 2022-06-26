@@ -13,9 +13,9 @@ export default function Navbar(props: any) {
                 <a href='/' className={props.tab === '1' ? ' relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' } >
                     Home
                 </a>
-                <a href='/shop' className={props.tab === '2' ? ' ml-8 relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 ml-8 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' }>
+                {/* <a href='/shop' className={props.tab === '2' ? ' ml-8 relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 ml-8 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' }>
                     Shop
-                </a>
+                </a> */}
                 <a href='/gallery' className={props.tab === '3' ? ' ml-8 relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 ml-8 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' } >
                     Gallery
                 </a>
@@ -45,9 +45,9 @@ export default function Navbar(props: any) {
                                 <a href='/' className={props.tab === '1' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
                                     Home
                                 </a>
-                                <a href='/shop' className={props.tab === '2' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
+                                {/* <a href='/shop' className={props.tab === '2' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
                                     Shop
-                                </a>
+                                </a> */}
                                 <a href='/gallery' className={props.tab === '3' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
                                     Gallery
                                 </a>
