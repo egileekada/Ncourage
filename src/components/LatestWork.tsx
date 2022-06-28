@@ -37,12 +37,12 @@ export default function LatestWork() {
                 </div>
 
                 <div className=' w-auto overflow-x-auto lg:hidden mb-12 dashboardslide flex mt-6  items-center' >
-                    <img src={one} className='h-40 object-cover ' alt='one' />
-                    <img src={two} className='h-40 object-cover ' alt='two' />
-                    <img src={three} className='h-40 object-cover ' alt='three' />
-                    <img src={middle} className='h-40 object-cover ' alt='middle' /> 
-                    <img src={five} className='h-40 object-cover ' alt='five' />
-                    <img src={six} className='h-40 object-cover ' alt='six' />
+                    <img src={one} className='h-64 object-cover ' alt='one' />
+                    <img src={two} className='h-64 object-cover ' alt='two' />
+                    <img src={three} className='h-64 object-cover ' alt='three' />
+                    <img src={middle} className='h-64 object-cover ' alt='middle' /> 
+                    <img src={five} className='h-64 object-cover ' alt='five' />
+                    <img src={six} className='h-64 object-cover ' alt='six' />
                 </div>
             </div> 
             <a href='/gallery' className=' text-[#222] mx-auto flex justify-center items-center bg-[#FFFFFFB2] h-11 mt-6 w-32 font-CircularStd-SemiBold rounded ' >See More</a>
