@@ -30,68 +30,135 @@ export default function GalleryPage() {
                     <p className=' font-CircularStd-Medium w-96 mt-2 text-center ' >our latest work and the amazing personalities</p>
                 </div> 
             </div>
-            <div className='container w-full ' >
-                {/* <LatestWork /> */}
-                <figure>
-                    <img src={one} alt="one" />
-                    {/* <figcaption><a href="#">1</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={two} alt="two" />
-                    {/* <figcaption><a href="#">2</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={three} alt="three" />
-                    {/* <figcaption><a href="#">3</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={four} alt="four" />
-                    {/* <figcaption><a href="#">4</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={five} alt="five" />
-                    {/* <figcaption><a href="#">5</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={six} alt="six" />
-                    {/* <figcaption><a href="#">6</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={seven} alt="seven" />
-                    {/* <figcaption><a href="#">7</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={eight} alt="eight"/>
-                    {/* <figcaption><a href="#">8</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={nine} alt="nine" />
-                    {/* <figcaption><a href="#">9</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={ten} alt="ten" />
-                    {/* <figcaption><a href="#">10</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={eleven}  alt="eleven" />
-                    {/* <figcaption><a href="#">11</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={twelve}  alt="twelve" />
-                    {/* <figcaption><a href="#">11</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={thirteen}  alt="thirteen" />
-                    {/* <figcaption><a href="#">11</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={fourteen}  alt="fourteen" />
-                    {/* <figcaption><a href="#">11</a></figcaption> */}
-                </figure>
-                <figure>
-                    <img src={fithteen}  alt="fithteen" />
-                    {/* <figcaption><a href="#">11</a></figcaption> */}
-                </figure>
+            <div className=' w-full lg:flex hidden px-4 ' > 
+                <div className='container w-full pb-10 ' >
+                    {/* <LatestWork /> */}
+                    <figure>
+                        <img src={one} alt="one" />
+                        {/* <figcaption><a href="#">1</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={two} alt="two" />
+                        {/* <figcaption><a href="#">2</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={three} alt="three" />
+                        {/* <figcaption><a href="#">3</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={four} alt="four" />
+                        {/* <figcaption><a href="#">4</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={five} alt="five" />
+                        {/* <figcaption><a href="#">5</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={six} alt="six" />
+                        {/* <figcaption><a href="#">6</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={seven} alt="seven" />
+                        {/* <figcaption><a href="#">7</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={eight} alt="eight"/>
+                        {/* <figcaption><a href="#">8</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={nine} alt="nine" />
+                        {/* <figcaption><a href="#">9</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={ten} alt="ten" />
+                        {/* <figcaption><a href="#">10</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={eleven}  alt="eleven" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={twelve}  alt="twelve" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={thirteen}  alt="thirteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={fourteen}  alt="fourteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={fithteen}  alt="fithteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                </div>
+            </div>
+            <div className=' w-full lg:hidden px-4 ' >
+                <div className='containermobile w-full pb-10 ' >
+                    {/* <LatestWork /> */}
+                    <figure>
+                        <img src={one} alt="one" />
+                        {/* <figcaption><a href="#">1</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={two} alt="two" />
+                        {/* <figcaption><a href="#">2</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={three} alt="three" />
+                        {/* <figcaption><a href="#">3</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={four} alt="four" />
+                        {/* <figcaption><a href="#">4</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={five} alt="five" />
+                        {/* <figcaption><a href="#">5</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={six} alt="six" />
+                        {/* <figcaption><a href="#">6</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={seven} alt="seven" />
+                        {/* <figcaption><a href="#">7</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={eight} alt="eight"/>
+                        {/* <figcaption><a href="#">8</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={nine} alt="nine" />
+                        {/* <figcaption><a href="#">9</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={ten} alt="ten" />
+                        {/* <figcaption><a href="#">10</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={eleven}  alt="eleven" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={twelve}  alt="twelve" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={thirteen}  alt="thirteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={fourteen}  alt="fourteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={fithteen}  alt="fithteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                </div>
             </div>
             <SocialMedia />
             <div className='w-full' >
