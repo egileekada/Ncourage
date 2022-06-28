@@ -31,7 +31,7 @@ export default function ShopPage() {
                 </div>
             </div> 
             <Portrait />
-            <Portrait />
+            <Portrait /> 
             <SocialMedia />
             <OtherImages />
             <Footer />
