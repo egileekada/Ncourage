@@ -1,21 +1,22 @@
 import React from 'react'
-import Slider1 from "../assets/images/HomeImage.jpg";
+import Slider1 from "../assets/images/Homepage.jpg";
 import Mobile from "../assets/images/mobile.png";
 import Profile from "../assets/images/profile.png";
 
 export default function SalesPage() { 
     return (
         <div className='w-full overflow-hidden' >
-            <img style={{height: '200vh'}} src={Slider1} className=' w-screen object-cover lg:flex hidden cursor-pointer' alt="Slider1" />
-            <img style={{height: '200vh'}} src={Slider1} className=' w-screen object-cover lg:hidden flex object-center cursor-pointer' alt="Slider1" />
-            <div className='w-full h-auto absolute top-0' >
+            <div className=' h-screen bg-black absolute z-10 w-full opacity-25 ' />
+            <img style={{height: '100vh'}} src={Slider1} className=' w-screen object-cover flex cursor-pointer' alt="Slider1" />
+            <img src={Slider1} className=' h-screen w-screen object-cover flex cursor-pointer' alt="Slider1" />
+            <div className='w-full h-auto absolute top-0 z-30' >
                 <div className=' w-full  h-screen px-6 lg:px-20 pb-20 flex flex-col ' >
                     <p className=' text-5xl lg:mx-auto mt-auto text-white font-CircularStd-Bold ' >We are Ncourage</p>
                     <p className=' mt-4 lg:w-96 lg:mx-auto lg:text-center text-white mb-auto font-CircularStd-Medium ' >Ncourage is an Educator, Retoucher and a professional photographer based in Nigeria, Africa. </p>
                 </div>
-                <div className=' w-full h-auto lg:h-screen  lg:flex-row flex-col py-10 lg:py-0 px-6 lg:px-0 lg:p-20 items-center backdrop-blur-2xl flex bg-[#2C241F7A]' >
-                    <img src={Profile} className=' rounded-full lg:mb-0 mb-12 ' alt="Slider1" />
-                    <div className='lg:ml-auto lg:mr-12 ' >
+                <div className=' w-full h-auto lg:h-screen  lg:flex-row flex-col py-10 lg:py-0 px-6 lg:px-0 lg:p-20 items-center justify-center backdrop-blur-2xl flex bg-[#2C241F7A]' >
+                    <img src={Profile} className=' rounded-full lg:mr-20 lg:mb-0 mb-12 ' alt="Slider1" />
+                    <div className='lg:ml-20 ' >
                         <p className='text-white leading-tight font-PublicSans-Bold text-3xl ' >My name is<br/><span className=' text-[#EDB388] ' >Muegbeyogho Courage Nosakhare,</span><br/>I’m a Photographer. </p>
                         <p className=' mt-4 lg:w-96 text-[#FFFFFFCC] font-CircularStd-Medium ' >As a Photographer, he strives for an ideal capture that requires minimal post-production, and as a Retoucher, he leaves no trace of his presence, while elevating a perfectly captured image and as an Educator, he is dedicated at ensuring his students can recreate his kind of results themselves. He is willing to listen to your needs, do some great work and have fun doing it; that you'll love working with him.</p>
                     

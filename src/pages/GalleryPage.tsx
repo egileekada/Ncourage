@@ -30,8 +30,8 @@ export default function GalleryPage() {
                     <p className=' font-CircularStd-Medium w-96 mt-2 text-center ' >our latest work and the amazing personalities</p>
                 </div> 
             </div>
-            <div className=' w-full lg:flex hidden px-4 ' > 
-                <div className='container w-full pb-10 ' >
+            <div className=' w-full lg:flex justify-center items-center  hidden px-4 ' > 
+                <div className='container w-screen pb-10 ' >
                     {/* <LatestWork /> */}
                     <figure>
                         <img src={one} alt="one" />
