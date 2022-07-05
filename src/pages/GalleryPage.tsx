@@ -12,13 +12,25 @@ import five from '../assets/images/G5-min.jpg'
 import six from '../assets/images/G6-min.jpg'
 import seven from '../assets/images/G7-min.jpg'
 import eight from '../assets/images/G8-min.jpg'
-import nine from '../assets/images/G9-min.jpg'
+// import nine from '../assets/images/G9-min.jpg'
 import ten from '../assets/images/G10-min.jpg'
-import eleven from '../assets/images/G11-min.jpg'
+// import eleven from '../assets/images/G11-min.jpg'
 import twelve from '../assets/images/G12-min.jpg'
 import thirteen from '../assets/images/G13-min.jpg'
 import fourteen from '../assets/images/G14-min.jpg'
 import fithteen from '../assets/images/G15-min.jpg'
+import G16 from '../assets/images/G16.jpg'
+import G17 from '../assets/images/G17.jpg'
+import G18 from '../assets/images/G18.jpg'
+import G19 from '../assets/images/G19.jpg'
+import G20 from '../assets/images/G20.jpg'
+import G21 from '../assets/images/G21.jpg'
+import G22 from '../assets/images/G22.png'
+import G23 from '../assets/images/G23.png'
+import G24 from '../assets/images/G24.png'
+import G25 from '../assets/images/G25.png'
+import G26 from '../assets/images/G26.png'
+import G27 from '../assets/images/G27.png'
 
 export default function GalleryPage() { 
     return (
@@ -64,19 +76,11 @@ export default function GalleryPage() {
                     <figure>
                         <img src={eight} alt="eight"/>
                         {/* <figcaption><a href="#">8</a></figcaption> */}
-                    </figure>
-                    <figure>
-                        <img src={nine} alt="nine" />
-                        {/* <figcaption><a href="#">9</a></figcaption> */}
-                    </figure>
+                    </figure> 
                     <figure>
                         <img src={ten} alt="ten" />
                         {/* <figcaption><a href="#">10</a></figcaption> */}
-                    </figure>
-                    <figure>
-                        <img src={eleven}  alt="eleven" />
-                        {/* <figcaption><a href="#">11</a></figcaption> */}
-                    </figure>
+                    </figure> 
                     <figure>
                         <img src={twelve}  alt="twelve" />
                         {/* <figcaption><a href="#">11</a></figcaption> */}
@@ -91,6 +95,54 @@ export default function GalleryPage() {
                     </figure>
                     <figure>
                         <img src={fithteen}  alt="fithteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G16}  alt="G16" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G17}  alt="G17" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G18}  alt="G18" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G19}  alt="G19" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G20}  alt="G20" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G21}  alt="G21" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G22}  alt="G22" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G23}  alt="G23" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G24}  alt="G24" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G25}  alt="G25" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G26}  alt="G26" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G27}  alt="G27" />
                         {/* <figcaption><a href="#">11</a></figcaption> */}
                     </figure>
                 </div>
@@ -129,19 +181,11 @@ export default function GalleryPage() {
                     <figure>
                         <img src={eight} alt="eight"/>
                         {/* <figcaption><a href="#">8</a></figcaption> */}
-                    </figure>
-                    <figure>
-                        <img src={nine} alt="nine" />
-                        {/* <figcaption><a href="#">9</a></figcaption> */}
-                    </figure>
+                    </figure> 
                     <figure>
                         <img src={ten} alt="ten" />
                         {/* <figcaption><a href="#">10</a></figcaption> */}
-                    </figure>
-                    <figure>
-                        <img src={eleven}  alt="eleven" />
-                        {/* <figcaption><a href="#">11</a></figcaption> */}
-                    </figure>
+                    </figure> 
                     <figure>
                         <img src={twelve}  alt="twelve" />
                         {/* <figcaption><a href="#">11</a></figcaption> */}
@@ -156,6 +200,54 @@ export default function GalleryPage() {
                     </figure>
                     <figure>
                         <img src={fithteen}  alt="fithteen" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G16}  alt="G16" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G17}  alt="G17" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G18}  alt="G18" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G19}  alt="G19" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G20}  alt="G20" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G21}  alt="G21" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G22}  alt="G22" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G23}  alt="G23" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G24}  alt="G24" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G25}  alt="G25" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G26}  alt="G26" />
+                        {/* <figcaption><a href="#">11</a></figcaption> */}
+                    </figure>
+                    <figure>
+                        <img src={G27}  alt="G27" />
                         {/* <figcaption><a href="#">11</a></figcaption> */}
                     </figure>
                 </div>

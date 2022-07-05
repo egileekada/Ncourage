@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider1 from "../assets/images/Homepage.jpg";
+import Slider1 from "../assets/images/wallpaper.png";
 import Mobile from "../assets/images/mobile.png";
 import Profile from "../assets/images/profile.png";
 
@@ -18,7 +18,7 @@ export default function SalesPage() {
                     <img src={Profile} className=' rounded-full lg:mr-20 lg:mb-0 mb-12 ' alt="Slider1" />
                     <div className='lg:ml-20 ' >
                         <p className='text-white leading-tight font-PublicSans-Bold text-3xl ' >My name is<br/><span className=' text-[#EDB388] ' >Muegbeyogho Courage Nosakhare,</span><br/>I’m a Photographer. </p>
-                        <p className=' mt-4 lg:w-96 text-[#FFFFFFCC] font-CircularStd-Medium ' >As a Photographer, he strives for an ideal capture that requires minimal post-production, and as a Retoucher, he leaves no trace of his presence, while elevating a perfectly captured image and as an Educator, he is dedicated at ensuring his students can recreate his kind of results themselves. He is willing to listen to your needs, do some great work and have fun doing it; that you'll love working with him.</p>
+                        <p className=' mt-4 lg:w-96 text-[#FFFFFFCC] font-CircularStd-Medium ' >As a Photographer, I strive for an ideal capture that requires minimal post-production, and as a Retoucher, I leave no trace of my presence, while elevating a perfectly captured image and as an Educator, I am dedicated at ensuring my students can recreate my kind of results themselves. I'm willing to listen to your needs, do some great work and have fun doing it; that you'll love working with me.</p>
                     
                         <div className=' grid grid-cols-3 gap-6 lg:mb-16 lg:justify-start mt-10' >
                             <div className='' >
