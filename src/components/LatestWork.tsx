@@ -1,5 +1,5 @@
 import React from 'react'
-import one from '../assets/images/1.png'
+import one from '../assets/images/new4.jpg'
 import two from '../assets/images/2.png'
 import three from '../assets/images/3.png'
 import middle from '../assets/images/middle.png'
@@ -23,17 +23,17 @@ export default function LatestWork() {
                     <button className=' font-PublicSans-Medium mx-5' >VIDEO</button>
                 </div> */}
                 <div className='w-screen hidden mt-14 lg:flex justify-center my-6 items-center' >
-                    <img src={one} alt='one' />
-                    <div className='mx-4  ' >
-                        <img src={two} alt='two' />
-                        <img src={three} className='mt-4' alt='three' />
+                    <img src={one}  className=' w-2/12 object-contain object-top' alt='one' />
+                    <div className='mx-4  w-2/12 ' >
+                        <img src={two} className=' ' alt='two' />
+                        <img src={three} className='mt-4 ' alt='three' />
                     </div>
-                    <img src={middle} alt='middle' /> 
-                    <div className='mx-4' >
-                        <img src={five} alt='five' />
+                    <img src={middle} className=' w-2/12' alt='middle' /> 
+                    <div className='mx-4 w-2/12' >
+                        <img src={five}  className=' ' alt='five' />
                         <img src={six} className='mt-4' alt='six' />
                     </div>
-                    <img src={seven} alt='seven' />
+                    <img src={seven} className=' w-2/12' alt='seven' />
                 </div>
 
                 <div className=' w-auto overflow-x-auto lg:hidden mb-12 dashboardslide flex mt-6  items-center' >

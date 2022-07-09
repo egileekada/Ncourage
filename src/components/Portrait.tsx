@@ -1,7 +1,7 @@
 import React from 'react'
-import one from '../assets/images/Portrait1.png'
-import two from '../assets/images/Portrait2.png'
-import three from '../assets/images/Portrait3.png'
+import one from '../assets/images/Portrait1.jpg'
+import two from '../assets/images/Portrait2.jpg'
+import three from '../assets/images/Portrait3.jpg'
 
 export default function Portrait() {
     return (
@@ -14,7 +14,7 @@ export default function Portrait() {
                 <div className=' absolute  w-full h-full flex justify-center items-center ' >
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSeHL18YFw3nCY9mxlyxjvxLUloMjObRINwPtyPgBCPUiPv9aQ/viewform?usp=pp_url' className=' text-[#222] flex justify-center items-center bg-[#FFFFFFB2] h-11 mt-2 w-24 font-CircularStd-SemiBold ' >Book</a>
                 </div>
-                <img className=' w-full' src={one} alt='1' />
+                <img className=' w-full lg:h-550px object-cover' src={one} alt='1' />
             </div>
             <div className='w-full relative ' >
                 <div style={{ background: 'linear-gradient(180deg, #3C2A35 36.69%, rgba(79, 64, 66, 0) 100%)'}} className=' absolute w-full py-12 text-white text-center ' >
@@ -25,7 +25,7 @@ export default function Portrait() {
                 <div className=' absolute  w-full h-full flex justify-center items-center ' >
                     <a href='http://wa.link/9xzsdb' className=' text-[#222] flex justify-center items-center bg-[#FFFFFFB2] h-11 mt-2 w-24 font-CircularStd-SemiBold ' >Book</a>
                 </div>
-                <img className=' w-full' src={two} alt='1' />
+                <img className=' w-full lg:h-550px object-cover' src={two} alt='1' />
             </div>
             <div className='w-full relative ' >
                 <div style={{ background: 'linear-gradient(180deg, #3C2A35 36.69%, rgba(79, 64, 66, 0) 100%)'}} className=' absolute w-full py-12 text-white text-center ' >
@@ -36,7 +36,7 @@ export default function Portrait() {
                 <div className=' absolute  w-full h-full flex justify-center items-center ' >
                     <a href='http://wa.link/9xzsdb' className=' text-[#222] flex justify-center items-center bg-[#FFFFFFB2] h-11 mt-2 w-24 font-CircularStd-SemiBold rounded ' >Book</a>
                 </div>
-                <img className=' w-full' src={three} alt='1' />
+                <img className=' w-full lg:h-550px object-cover ' src={three} alt='1' />
             </div>
         </div>
     )
