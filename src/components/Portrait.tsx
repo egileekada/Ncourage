@@ -8,7 +8,7 @@ export default function Portrait() {
         <div className=' w-full flex lg:flex-row flex-col ' >
             <div className='w-full relative ' >
                 <div style={{ background: 'linear-gradient(180deg, #3C2A35 36.69%, rgba(79, 64, 66, 0) 100%)'}} className=' absolute w-full py-12 text-white text-center ' >
-                    <p className=' font-CircularStd-Medium  ' >Portrait Photoshoot(Indoor or Outdoor)</p>
+                    <p className=' font-CircularStd-Bold mt-4  ' >Portrait Photoshoot(Indoor or Outdoor)</p>
                     {/* <p className=' font-CircularStd-Bold text-5xl my-4 ' >₦12,000</p> */} 
                 </div>
                 <div className=' absolute  w-full h-full flex justify-center items-center ' >
@@ -18,7 +18,7 @@ export default function Portrait() {
             </div>
             <div className='w-full relative ' >
                 <div style={{ background: 'linear-gradient(180deg, #3C2A35 36.69%, rgba(79, 64, 66, 0) 100%)'}} className=' absolute w-full py-12 text-white text-center ' >
-                    <p className=' font-CircularStd-Medium  ' >Wedding/Event Coverage</p>
+                    <p className=' font-CircularStd-Bold mt-4  ' >Wedding/Event Coverage</p>
                     {/* <p className=' font-CircularStd-Bold text-5xl my-4 ' >₦15,000</p>
                     <a href='http://wa.link/9xzsdb' className=' text-[#222] bg-[#FFFFFFB2] h-11 mt-2 w-24 font-CircularStd-SemiBold ' >Book</button> */}
                 </div>
@@ -29,7 +29,7 @@ export default function Portrait() {
             </div>
             <div className='w-full relative ' >
                 <div style={{ background: 'linear-gradient(180deg, #3C2A35 36.69%, rgba(79, 64, 66, 0) 100%)'}} className=' absolute w-full py-12 text-white text-center ' >
-                    <p className=' font-CircularStd-Medium  ' > Photography school or other trainings</p>
+                    <p className=' font-CircularStd-Bold mt-4 ' > Photography school or other trainings</p>
                     {/* <p className=' font-CircularStd-Bold text-5xl my-4 ' >₦10,000</p>
                     <button className=' text-[#222] bg-[#FFFFFFB2] h-11 mt-2 w-24 font-CircularStd-SemiBold ' >Book</button> */}
                 </div>
