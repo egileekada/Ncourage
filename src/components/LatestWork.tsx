@@ -9,7 +9,7 @@ import seven from '../assets/images/7.png'
 
 export default function LatestWork() {
     return (
-        <div style={{background: 'radial-gradient(50% 50% at 50% 50%, #574130 0%, #1F1610 100%)'}} className=' w-full h-full pt-56 pb-14 lg:pb-14 lg:pt-14 ' >
+        <div style={{background: 'radial-gradient(50% 50% at 50% 50%, #574130 0%, #1F1610 100%)'}} className=' w-full h-full pt-20 pb-14 lg:pb-14 lg:pt-14 ' >
             <div className=' w-full flex flex-col justify-center items-center mt-8' >
                 <p className=' text-4xl font-CircularStd-SemiBold text-white ' >Latest <span className=' text-[#EDB388]' >works</span></p> 
                 {/* <div className=' w-auto lg:flex items-center hidden text-sm my-8 text-[#FFFFFF99]' >
