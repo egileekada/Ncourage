@@ -19,8 +19,8 @@ export default function Navbar(props: any) {
                 <a href='/gallery' className={props.tab === '3' ? ' ml-8 relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 ml-8 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' } >
                     Gallery
                 </a>
-                <a href='/contactus' className={props.tab === '4' ? ' ml-8 relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 ml-8 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' } >
-                    Contact us
+                <a href='http://wa.link/9xzsdb' className={props.tab === '4' ? ' ml-8 relative z-20 border-l-2 h-3 flex items-center border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 ml-8 h-3 flex items-center pl-2 text-[#DEDEDE] font-CircularStd-Medium ' } >
+                    Let's Talk
                 </a>
             </div>
             <div className='w-full flex justify-center items-center mx-auto h-28 lg:absolute lg:mt-0 mt-8 top-0 left-0 right-0' >
@@ -51,8 +51,8 @@ export default function Navbar(props: any) {
                                 <a href='/gallery' className={props.tab === '3' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
                                     Gallery
                                 </a>
-                                <a href='/contactus' className={props.tab === '4' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
-                                    Contact us
+                                <a href='http://wa.link/9xzsdb' className={props.tab === '4' ? ' relative z-20 border-l-2 h-3 flex items-center my-5 border-[#EDB388] pl-2 text-[#EDB388] font-CircularStd-Medium ':' relative z-20 h-3 flex items-center my-5 pl-2 text-[#DEDEDE] font-CircularStd-Medium '} >
+                                    Let's Talk
                                 </a>
                             </div>
                         </div>
